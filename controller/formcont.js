@@ -14,7 +14,7 @@ exports.afficheformget=(req,res,next)=>{
 }
 exports.affsup=(req,res,next)=>{
  let   salah="ahla"
-    res.send("<h1>"+salah+"</h1><form method='get' action='/verif' ><h3>commit3</h3> <input name='name' type='text'> <input name='password' type='password'> <button type='submit'  >sub</button></form>")
+    res.send("<h1>"+salah+"</h1><h3>"+salah+"</h3><form method='get' action='/verif' ><h3>commit3</h3> <input name='name' type='text'> <input name='password' type='password'> <button type='submit'  >sub</button></form>")
 }
 
 

@@ -13,8 +13,8 @@ exports.afficheformget=(req,res,next)=>{
     res.send("<form method='get' action='/verif' ><h2>salah</h2> <input name='name' type='text'> <input name='password' type='password'> <button type='submit'  >sub</button></form>")
 }
 exports.affsup=(req,res,next)=>{
-
-    res.send("<form method='get' action='/verif' ><h3>commit3</h3> <input name='name' type='text'> <input name='password' type='password'> <button type='submit'  >sub</button></form>")
+ let   salah="ahla"
+    res.send("<h1>"+salah+"</h1><form method='get' action='/verif' ><h3>commit3</h3> <input name='name' type='text'> <input name='password' type='password'> <button type='submit'  >sub</button></form>")
 }
 
 
